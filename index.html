@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MD Sadik Hossain | Junior Web Developer Portfolio</title>
+  <meta name="description" content="Portfolio of MD Sadik Hossain, CSE student at AIUB and aspiring Junior Web Developer." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <a href="#home" class="logo">Sadik<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">&#9776;</button>
+    <nav id="navLinks" class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#projects">Projects</a>
+      <a href="#video">Video CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ================= 1. HOME ================= -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="hello">Hello, I am</p>
+        <h1>MD Sadik Hossain</h1>
+        <h2>I am a <span id="typing"></span><span class="cursor">|</span></h2>
+        <p class="hero-desc">
+          CSE student at American International University-Bangladesh (AIUB). I enjoy building
+          clean, working web applications and solving problems with code.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View My Projects</a>
+          <a href="assets/MD_Sadik_Hossain_CV_v1.docx" class="btn btn-outline" download>Download CV</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/Sadik-Hossain-Official" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/sadik-hossain-282241352" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:sadikhossain230802@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img src="images/sadik.png" alt="Photo of MD Sadik Hossain" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 2. ABOUT MYSELF ================= -->
+    <section id="about" class="section">
+      <h2 class="title">About <span>Myself</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a motivated Computer Science and Engineering student at AIUB with a strong
+            foundation in full-stack web development, data structures and modern web technologies.
+          </p>
+          <p>
+            I build projects with HTML, CSS, Tailwind CSS, JavaScript and React, and I am comfortable
+            with Node.js, Express.js, PostgreSQL, MongoDB and MySQL. I also practise problem solving
+            in C++ and JavaScript on HackerRank and other online judges.
+          </p>
+          <p>
+            My career goal is to start as a Junior Web Developer, learn how real businesses work,
+            turn their requirements into practical web solutions, and keep growing with the help of
+            modern AI-assisted development tools.
+          </p>
+        </div>
+        <div class="about-cards">
+          <div class="card"><h3>3.50</h3><p>Current CGPA (out of 4.00)</p></div>
+          <div class="card"><h3>2029</h3><p>Expected graduation</p></div>
+          <div class="card"><h3>2</h3><p>Web projects built</p></div>
+          <div class="card"><h3>3</h3><p>Courses &amp; trainings</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. RESUME ================= -->
+    <section id="resume" class="section dark">
+      <h2 class="title">My <span>Resume</span></h2>
+
+      <div class="resume-grid">
+        <!-- Education -->
+        <div>
+          <h3 class="sub">Education</h3>
+          <div class="timeline">
+            <div class="item">
+              <h4>BSc in Computer Science and Engineering</h4>
+              <p class="muted">American International University-Bangladesh (AIUB)</p>
+              <p class="date">2024 - Ongoing (Expected 2029) | CGPA: 3.50 / 4.00</p>
+            </div>
+            <div class="item">
+              <h4>Higher Secondary Certificate (HSC)</h4>
+              <p class="muted">Adarsha College, Dinajpur</p>
+              <p class="date">2021 | GPA: 4.75 / 5.00</p>
+            </div>
+            <div class="item">
+              <h4>Secondary School Certificate (SSC)</h4>
+              <p class="muted">St. Philip's High School and College, Dinajpur</p>
+              <p class="date">2019 | GPA: 4.89 / 5.00</p>
+            </div>
+          </div>
+
+          <h3 class="sub">Relevant Courses</h3>
+          <div class="tags">
+            <span>Data Structures &amp; Algorithms</span>
+            <span>Object-Oriented Programming</span>
+            <span>Database Management Systems</span>
+            <span>Web Development</span>
+            <span>Software Engineering</span>
+          </div>
+
+          <h3 class="sub">Certifications &amp; Training</h3>
+          <div class="timeline">
+            <div class="item">
+              <h4>Programming Hero</h4>
+              <p class="muted">Complete Web Development (JavaScript, React.js, Node.js, Express.js, MongoDB)</p>
+            </div>
+            <div class="item">
+              <h4>CPS Academy</h4>
+              <p class="muted">Competitive Programming, Data Structures &amp; Algorithms Problem Solving</p>
+            </div>
+            <div class="item">
+              <h4>HackerRank &amp; Online Judges</h4>
+              <p class="muted">Active problem solving with C++ and JavaScript</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div>
+          <h3 class="sub">Technical Skills</h3>
+
+          <h4 class="skill-title">Programming Languages</h4>
+          <div class="tags"><span>JavaScript (ES6+)</span><span>TypeScript</span><span>C++</span><span>PHP (Basic)</span></div>
+
+          <h4 class="skill-title">Frontend</h4>
+          <div class="tags"><span>HTML5</span><span>CSS3</span><span>Tailwind CSS</span><span>React.js</span><span>Next.js</span><span>JavaScript DOM</span></div>
+
+          <h4 class="skill-title">Backend</h4>
+          <div class="tags"><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>HTTP</span><span>JSON</span></div>
+
+          <h4 class="skill-title">Databases</h4>
+          <div class="tags"><span>PostgreSQL</span><span>MongoDB</span><span>MySQL</span><span>Basic Relational Concepts</span></div>
+
+          <h4 class="skill-title">Tools &amp; Version Control</h4>
+          <div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Postman</span><span>Prettier</span></div>
+
+          <h3 class="sub">Transferable Skills</h3>
+          <div class="tags">
+            <span>Problem Solving</span>
+            <span>Debugging &amp; Troubleshooting</span>
+            <span>AI-Assisted Development</span>
+            <span>Willingness to Learn</span>
+            <span>Teamwork</span>
+          </div>
+
+          <h3 class="sub">Languages</h3>
+          <div class="timeline">
+            <div class="item"><h4>Bangla</h4><p class="muted">Native / Bilingual</p></div>
+            <div class="item"><h4>English</h4><p class="muted">Professional Working Proficiency</p></div>
+          </div>
+
+          <a href="assets/MD_Sadik_Hossain_CV_v1.docx" class="btn" download>Download Full CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4. SAMPLE PROJECTS ================= -->
+    <section id="projects" class="section">
+      <h2 class="title">Sample <span>Projects</span></h2>
+
+      <div class="project-grid">
+
+        <!-- Project 1 -->
+        <article class="project">
+          <div class="project-img">English-Janala</div>
+          <div class="project-body">
+            <h3>English-Janala - Online Interactive Dictionary</h3>
+            <p>An interactive web dictionary that lets learners search and explore word definitions.</p>
+            <ul>
+              <li><b>Problem:</b> English learners need a quick way to see meanings and hear pronunciation.</li>
+              <li><b>What I did:</b> Fetched real-time vocabulary data from a remote REST API using the Fetch API.</li>
+              <li><b>Key feature:</b> Audio pronunciation using the Web Speech API / audio elements.</li>
+              <li><b>Implementation:</b> Dynamic DOM updates, styled with HTML5, JavaScript and Tailwind CSS.</li>
+              <li><b>My role:</b> Designed and built the whole project on my own.</li>
+            </ul>
+            <div class="tags small"><span>HTML5</span><span>JavaScript</span><span>Tailwind CSS</span><span>Fetch API</span></div>
+            <div class="project-links">
+              <!-- TODO: replace the # with your real links -->
+              <a href="https://sadik-hossain-official.github.io/English-Janala/" target="_blank" rel="noopener">Live Demo</a>
+              <a href="https://github.com/Sadik-Hossain-Official" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project">
+          <div class="project-img">Payoo</div>
+          <div class="project-body">
+            <h3>Payoo - Mobile Banking Web App</h3>
+            <p>A responsive, mobile-first banking prototype that simulates core money flows.</p>
+            <ul>
+              <li><b>Problem:</b> Practise how real financial user flows work in a web app.</li>
+              <li><b>What I did:</b> Built user authentication, cash-in, add-money, transfer and a transaction log with validation.</li>
+              <li><b>State:</b> Used LocalStorage and SessionStorage for sessions and transaction history.</li>
+              <li><b>Implementation:</b> HTML5, CSS3, Tailwind CSS and the JavaScript DOM API.</li>
+              <li><b>My role:</b> Designed and built the whole project on my own.</li>
+            </ul>
+            <div class="tags small"><span>HTML5</span><span>CSS3</span><span>Tailwind CSS</span><span>LocalStorage</span></div>
+            <div class="project-links">
+              <!-- TODO: replace the # with your real links -->
+              <a href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a href="https://github.com/Sadik-Hossain-Official" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ================= 5. INTRODUCTION VIDEO ================= -->
+    <section id="video" class="section dark">
+      <h2 class="title">Video <span>CV</span></h2>
+      <p class="center-text">
+        A short video introducing myself, my academic background, skills, interests and career goals.
+      </p>
+
+      <!-- ======================================================
+           VIDEO CV SPACE
+           This box is intentionally empty. Follow the steps I gave
+           you in the chat, then paste your iframe (or video tag)
+           INSIDE the div below, replacing the placeholder.
+
+           Option A - YouTube / Google Drive (iframe):
+           <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                   title="Video CV" allowfullscreen></iframe>
+
+           Option B - video file inside your project folder:
+           <video controls poster="images/sadik.png">
+             <source src="videos/videoCV.mp4" type="video/mp4" />
+           </video>
+           ====================================================== -->
+      <div class="video-box" id="videoBox">
+        <div class="video-placeholder">
+          <!-- <span class="play">&#9654;</span> -->
+          <!-- <p>Video CV coming soon</p> -->
+           <video controls poster="images/sadik.png">
+             <source src="videos/videoCV.mp4" type="video/mp4" />
+           </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 6. CONTACT ================= -->
+    <section id="contact" class="section">
+      <h2 class="title">Contact <span>Me</span></h2>
+      <p class="center-text">I am open to the Junior Web Developer role and happy to talk any time.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="card"><h4>Email</h4><a href="mailto:sadikhossain230802@gmail.com">sadikhossain230802@gmail.com</a></div>
+          <div class="card"><h4>Phone</h4><a href="tel:+8801755341984">+880 1755-341984</a></div>
+          <div class="card"><h4>Address</h4><p>Boshundhora R/A, Dhaka, Bangladesh</p></div>
+          <div class="card"><h4>Profiles</h4>
+            <a href="https://github.com/Sadik-Hossain-Official" target="_blank" rel="noopener">GitHub</a> |
+            <a href="https://linkedin.com/in/sadik-hossain-282241352" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+        <!-- This form opens the visitor's email app with the message filled in -->
+        <form id="contactForm" class="contact-form">
+          <input type="text" id="name" placeholder="Your name" required />
+          <input type="email" id="email" placeholder="Your email" required />
+          <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> MD Sadik Hossain. All rights reserved.</p>
+  </footer>
+
+  <a href="#home" class="to-top" id="toTop" aria-label="Back to top">&uarr;</a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
